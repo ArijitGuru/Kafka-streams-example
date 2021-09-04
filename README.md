@@ -9,3 +9,7 @@
 
 # Create Topic 2
 .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic active.web-domains
+
+
+# Producer Microservice endpoint URI in browser:
+http://localhost:8081/domain/lookup/facebook
